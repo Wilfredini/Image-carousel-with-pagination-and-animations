@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/679af4529b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Img Slider</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="slider">
+      <div class="slide">
+        <div class="content active">
+          <p>
+            “The mountains are the last place where man can feel truly wild.”
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <p>
+            “The great thing about reaching the top of the mountain is realising
+            that there’s space for more than one person. And you’re now in the
+            prime position to help others up.”
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <p>
+            “I see every person as a mountain of sorts; we can see how they look
+            from afar, but will never know them until we explore.”
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <p>
+            “You cannot conquer a mountain, for it shall continue to exist
+            beyond you. However, if not careful, a mountain can conquer you.”
+          </p>
+        </div>
+      </div>
+      <div class="slide current">
+        <div class="content">
+          <p>
+            “A younger me needed to climb every mountain. The older me says they
+            photograph better from the bottom.”
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="content">
+          <p>
+            “What a funny world we live in when we won’t turn our phones off,
+            yet we get excited to see we’ve hiked far enough to lose service.”
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="paginator">
+      <div class="page actual"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+    </div>
+    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+    <button class="prev">
+      <i class="fa-sharp fa-solid fa-arrow-left"></i>
+    </button>
+    <script src="./app.js"></script>
+  </body>
+</html>
